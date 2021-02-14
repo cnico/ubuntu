@@ -10,6 +10,7 @@ After cloning this repo and being in the pulled directory :
     docker run -it --rm ubuntu-py
 
 Once in the container : 
+
     pip3 --version
     pyhon3 --version
     ...
