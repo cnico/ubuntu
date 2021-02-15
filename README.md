@@ -6,8 +6,9 @@ It is not published in docker hub and is simply a helper image for dev on my lap
 
 ### Usage
 After cloning this repo and being in the pulled directory :
-    docker build -t "ubuntu-py" .
-    docker run -it --name "ubuntu-py" ubuntu-py
+
+    docker build -t ubuntu-py .
+    docker run --name ubuntu-py -it ubuntu-py
     docker rm ubuntu-py
 
 Once in the container : 
